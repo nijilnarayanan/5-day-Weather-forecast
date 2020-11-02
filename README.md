@@ -2,7 +2,7 @@
 
 # 5-Day Weather Forecast
 
-A simple application to display 5-day weather forecast using the OpenWeatherMap API.
+A simple application with responsive design displays 5-day weather forecast using the OpenWeatherMap API.
 
 ### Demo
 
