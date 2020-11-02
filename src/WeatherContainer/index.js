@@ -3,7 +3,7 @@ import Card from '../Card'
 import { Wrapper } from './style'
 import fetchWeatherData from './api_call'
 
-const WeatherContainer = (props) => {
+const WeatherContainer = () => {
 	const [weather, setWeather] = useState([])
 
 	useEffect(() => {
