@@ -1,5 +1,6 @@
 import Header from './Header'
 import WeatherContainer from './WeatherContainer'
+import Band from './Band'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
 		<div className='App'>
 			<Header />
 			<WeatherContainer />
+			<Band />
 		</div>
 	)
 }

@@ -4,7 +4,6 @@ import moment from 'moment'
 import PropTypes from 'prop-types'
 
 const Card = ({ weatherData }) => {
-	console.log({ weatherData })
 	const {
 		dt,
 		main: { temp },
