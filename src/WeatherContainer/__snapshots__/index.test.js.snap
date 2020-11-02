@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Run Test <WeatherContainer /> 1`] = `
+"<section class=\\"sc-gKsewC jZCmVk\\">
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Mon</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">2nd, Nov</div><img src=\\"https://openweathermap.org/img/w/03n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">21°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">scattered clouds</div>
+  </article>
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Tue</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">3rd, Nov</div><img src=\\"https://openweathermap.org/img/w/10n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">20°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">light rain</div>
+  </article>
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Wed</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">4th, Nov</div><img src=\\"https://openweathermap.org/img/w/10n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">20°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">light rain</div>
+  </article>
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Thu</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">5th, Nov</div><img src=\\"https://openweathermap.org/img/w/02n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">19°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">few clouds</div>
+  </article>
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Fri</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">6th, Nov</div><img src=\\"https://openweathermap.org/img/w/01n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">19°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">clear sky</div>
+  </article>
+</section>"
+`;

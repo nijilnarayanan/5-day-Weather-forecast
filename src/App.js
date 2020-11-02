@@ -1,3 +1,4 @@
+import React from 'react'
 import Header from './Header'
 import WeatherContainer from './WeatherContainer'
 import Band from './Band'

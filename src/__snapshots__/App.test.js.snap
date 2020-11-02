@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Run Test <App /> 1`] = `
+"<App>
+  <div className=\\"App\\">
+    <Header>
+      <styled.section>
+        <section className=\\"sc-bdfBwQ jEWXLh\\">
+          <styled.div>
+            <div className=\\"sc-gsTCUz jLFiED\\">
+              5 Day Weather Forecast
+            </div>
+          </styled.div>
+          <styled.div>
+            <div className=\\"sc-dlfnbm fGPqXe\\">
+              <styled.img src=\\"location.png\\">
+                <img src=\\"location.png\\" className=\\"sc-hKgILt gqiLmC\\" />
+              </styled.img>
+              <styled.span>
+                <span className=\\"sc-eCssSg ldyRwL\\">
+                  Mai
+                </span>
+              </styled.span>
+            </div>
+          </styled.div>
+        </section>
+      </styled.section>
+    </Header>
+    <WeatherContainer>
+      <styled.section>
+        <section className=\\"sc-kEjbxe bXnKhx\\" />
+      </styled.section>
+    </WeatherContainer>
+    <Band>
+      <styled.section>
+        <section className=\\"sc-iqHYGH fEzGXk\\">
+          <styled.div>
+            <div className=\\"sc-crrsfI duZmFZ\\">
+              Made with ❤️ by Nijil Narayanan
+            </div>
+          </styled.div>
+        </section>
+      </styled.section>
+    </Band>
+  </div>
+</App>"
+`;
