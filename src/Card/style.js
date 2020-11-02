@@ -1,26 +1,22 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.section`
+export const Wrapper = styled.article`
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	background-color: #e5e5e5;
 	margin-top: 10px;
 	border-radius: 4px;
-	padding: 8px;
+	padding: 8px 10px;
 
 	@media screen and (min-width: 767px) {
 		flex-direction: column;
-		margin-right: 16px;
-		padding: 16px;
-		height: 200px;
+		justify-content: flex-start;
+		padding: 24px 16px;
 		width: 100px;
 		margin-top: 0px;
 		border-radius: 8px;
-		&:last-child {
-			margin-right: 0px;
-		}
 	}
 `
 
@@ -47,6 +43,7 @@ export const Temperature = styled.div`
 `
 export const Description = styled.div`
 	margin-left: 8px;
+	text-align: center;
 	@media screen and (min-width: 767px) {
 		margin-left: 0px;
 		font-size: 20px;

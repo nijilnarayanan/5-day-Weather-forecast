@@ -10,15 +10,13 @@ const Card = ({ weatherData }) => {
 		main: { temp },
 		weather,
 	} = weatherData || {}
-	const { description, icon } = weather[0]
+	const { description, icon } = weather[0] || {}
 
-	let newDate = new Date()
 	const weekday = dt * 1000 // converting into milliseconds
-	newDate.setTime(weekday)
 
 	const day = moment(weekday).format('ddd')
 	const dateAndTime = moment(weekday).format('Do, MMM')
-	const degreeCelsius = temp - 273.15 // converting kelvin to Degree Celsius
+	const degreeCelsius = temp - 273.15 // converting Kelvin to Degree Celsius
 
 	return (
 		<Wrapper>
@@ -31,6 +29,11 @@ const Card = ({ weatherData }) => {
 	)
 }
 
-Card.propTypes = {}
+Card.defaultProp = {
+	weatherData: {},
+}
+Card.propTypes = {
+	weatherData: PropTypes.shape({}),
+}
 
 export default Card

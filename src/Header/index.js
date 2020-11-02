@@ -9,7 +9,7 @@ const Header = () => {
 				<HeaderText>5 Day Weather Forecast</HeaderText>
 				<Location>
 					<Icon src={location} />
-					<City>Mumbai</City>
+					<City>Mai</City>
 				</Location>
 			</Wrapper>
 		</Fragment>

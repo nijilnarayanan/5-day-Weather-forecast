@@ -7,7 +7,7 @@ export const Wrapper = styled.section`
 
 	@media screen and (min-width: 767px) {
 		flex-direction: row;
-		justify-content: flex-end;
-		margin: 0 32px;
+		justify-content: space-between;
+		margin: 32px;
 	}
 `
