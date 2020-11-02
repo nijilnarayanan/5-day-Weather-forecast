@@ -1,17 +1,17 @@
 body {
-  background-color: #0D4273;
+	background-color: #0d4273;
 }
 
 .App {
-  padding: 75px 0px;
+	padding: 75px 0px;
 }
 
 @media screen and (min-width: 767px) {
-  .App {
-    max-width: 790px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 150px 0px;
-  }
+	.App {
+		max-width: 790px;
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		padding: 150px 0px;
+	}
 }
