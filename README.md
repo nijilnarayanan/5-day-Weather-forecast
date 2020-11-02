@@ -36,10 +36,6 @@ npm run test
 
 ```
 
-#### Notes:
-
--   Unit testing can be done manually by executing the above command.
-
 ## Build
 
 ```
