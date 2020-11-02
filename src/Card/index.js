@@ -22,7 +22,7 @@ const Card = ({ weatherData }) => {
 		<Wrapper>
 			<Day>{day}</Day>
 			<DateTime>{dateAndTime}</DateTime>
-			<Icon src={`http://openweathermap.org/img/w/${icon}.png`} />
+			<Icon src={`https://openweathermap.org/img/w/${icon}.png`} />
 			<Temperature>{Math.round(degreeCelsius)}°C</Temperature>
 			<Description>{description}</Description>
 		</Wrapper>
