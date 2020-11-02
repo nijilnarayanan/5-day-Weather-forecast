@@ -16,7 +16,7 @@ https://5day-weather-forecast.netlify.app/
 
 ```
 git clone
-cd 5-day-weather-app
+cd 5-day-Weather-forecast
 npm i
 ```
 
