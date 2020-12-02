@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 import Card from '../Card'
 import { Wrapper } from './style'
-import fetchWeatherData from './api_call'
+import fetchWeatherDetails from './../Redux/actionCreator'
 
 const WeatherContainer = () => {
+	const data = useSelector((state) => state.data)
+
+	const dispatch = useDispatch()
 	const [weather, setWeather] = useState([])
 
 	useEffect(() => {
-		fetchWeatherData().then((data) => {
-			const fiveDayData = data.list.filter((reading) => reading.dt_txt.includes('18:00:00'))
-			setWeather(fiveDayData)
-		})
+		dispatch(fetchWeatherDetails())
 	}, [])
 
 	return (
