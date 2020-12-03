@@ -5,17 +5,19 @@ import { API_URL } from './../constants'
 const fetchWeatherDetails = () => {
 	return (dispatch) => {
 		// Loading State
-		dispatch(weatherRequest)
+		dispatch(weatherRequest())
 
 		axios
 			.get(API_URL)
 			.then((response) => {
-				const fiveDayData = response.data?.list.filter((reading) => reading.dt_txt.includes('18:00:00'))
+				// Success State
+				const fiveDayData = response.data?.list.filter((reading) => reading.dt_txt.includes('18:00:00')) || []
 				dispatch(weatherSuccess(fiveDayData))
 			})
 			.catch((err) => {
-				const errorMessage = err.response?.data
-				dispatch(weatherFailure)
+				// Failure State
+				const errorMessage = err.response.data?.message
+				dispatch(weatherFailure(errorMessage))
 			})
 	}
 }

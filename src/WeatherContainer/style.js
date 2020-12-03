@@ -11,3 +11,9 @@ export const Wrapper = styled.section`
 		margin: 32px;
 	}
 `
+
+export const Messages = styled.section`
+	color: #ffffff;
+	text-align: center;
+	margin: 75px 16px;
+`

@@ -3,7 +3,7 @@ import { WEATHER_REQUEST, WEATHER_SUCCESS, WEATHER_FAILURE } from './actionTypes
 const initialState = {
 	loading: false,
 	data: [],
-	error: {},
+	error: '',
 }
 
 const weatherReducer = (state = initialState, action) => {
@@ -19,14 +19,14 @@ const weatherReducer = (state = initialState, action) => {
 				...state,
 				loading: false,
 				data: action.response,
-				error: {},
+				error: '',
 			}
 
 		case WEATHER_FAILURE:
 			return {
 				...state,
 				loading: false,
-				data: {},
+				data: [],
 				error: action.response,
 			}
 
