@@ -47,7 +47,6 @@ npm run build
 ### TODOs
 
 -   Provide an option for user to choose location of their choice by Name, Lat/Long etc
--   Integrate Redux for State Management
 -   Use a proper loading spinner icon on page load
 -   Detect location automatically
 -   Display higher-level of weather information such as Wind Speed, Precipitation etc
@@ -56,6 +55,7 @@ npm run build
 ### Tech Stack
 
 -   React.js
+-   Redux
 -   JavaScript (ES6)
 -   HTML5
 -   Styled Components for styling
