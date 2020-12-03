@@ -4,11 +4,7 @@ import moment from 'moment'
 import PropTypes from 'prop-types'
 
 const Card = ({ weatherData }) => {
-	const {
-		dt,
-		main: { temp },
-		weather,
-	} = weatherData || {}
+	const { dt, main: { temp } = {}, weather = {} } = weatherData || {}
 	const { description, icon } = weather[0] || {}
 
 	const weekday = dt * 1000 // converting into milliseconds

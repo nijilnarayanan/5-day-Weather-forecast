@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Run Test <Card /> 1`] = `
+"<Card>
+  <styled.article>
+    <article className=\\"sc-bdfBwQ hikiyW\\">
+      <styled.div>
+        <div className=\\"sc-gsTCUz jnUaKZ\\">
+          Invalid date
+        </div>
+      </styled.div>
+      <styled.div>
+        <div className=\\"sc-dlfnbm jbeaVV\\">
+          Invalid date
+        </div>
+      </styled.div>
+      <styled.img src=\\"https://openweathermap.org/img/w/undefined.png\\">
+        <img src=\\"https://openweathermap.org/img/w/undefined.png\\" className=\\"sc-hKgILt\\" />
+      </styled.img>
+      <styled.div>
+        <div className=\\"sc-eCssSg fajYQx\\">
+          NaN
+          °C
+        </div>
+      </styled.div>
+      <styled.div>
+        <div className=\\"sc-jSgupP cuBoir\\" />
+      </styled.div>
+    </article>
+  </styled.article>
+</Card>"
+`;

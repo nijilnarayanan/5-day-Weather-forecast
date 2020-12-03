@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Run Test <Band /> 1`] = `
+"<Band>
+  <styled.section>
+    <section className=\\"sc-bdfBwQ klkbry\\">
+      <styled.div>
+        <div className=\\"sc-gsTCUz cyshaC\\">
+          Made with ❤️ by Nijil Narayanan
+        </div>
+      </styled.div>
+    </section>
+  </styled.section>
+</Band>"
+`;
