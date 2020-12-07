@@ -4,20 +4,17 @@ import { Provider } from 'react-redux'
 import { act } from 'react-dom/test-utils'
 import pretty from 'pretty'
 import WeatherContainer from './index'
-import fetchWeatherData from './api_call'
-import dataFixture from './api_call.fixture'
+import dataFixture from './weather_state.fixture'
 
 const dummyState = {
 	loading: false,
-	data: [],
+	data: dataFixture,
 	error: '',
 }
 
-jest.mock('./api_call')
-
 test('Run Test <WeatherContainer />', async () => {
 	const container = document.createElement('div')
-	fetchWeatherData.mockResolvedValue(dataFixture)
+
 	await act(async () => {
 		ReactDOM.render(
 			<Provider store={{ getState: () => dummyState, dispatch: () => {}, subscribe: () => {} }}>

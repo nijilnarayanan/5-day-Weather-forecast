@@ -18,9 +18,9 @@
 	"scripts": {
 		"start": "PORT=4141 react-scripts start",
 		"build": "react-scripts build",
-		"test": "react-scripts test --coverage",
+		"test": "react-scripts test --coverage --watchAll=false",
 		"eject": "react-scripts eject",
-		"test:watch": "react-scripts test --watch"
+		"test:watch": "nodemon --watch src --exec yarn run test"
 	},
 	"eslintConfig": {
 		"extends": [

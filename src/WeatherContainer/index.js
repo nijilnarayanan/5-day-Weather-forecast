@@ -21,6 +21,7 @@ const WeatherContainer = () => {
 			return <Messages>Loading ...</Messages>
 		}
 
+		/* istanbul ignore if */
 		if (error) {
 			return <Messages>{error}</Messages>
 		}

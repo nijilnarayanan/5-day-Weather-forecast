@@ -1,3 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Run Test <WeatherContainer /> 1`] = `"<section class=\\"sc-gKsewC jZCmVk\\"></section>"`;
+exports[`Run Test <WeatherContainer /> 1`] = `
+"<section class=\\"sc-gKsewC jZCmVk\\">
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Mon</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">7th, Dec</div><img src=\\"https://openweathermap.org/img/w/02n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">16°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">few clouds</div>
+  </article>
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Tue</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">8th, Dec</div><img src=\\"https://openweathermap.org/img/w/02n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">14°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">few clouds</div>
+  </article>
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Wed</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">9th, Dec</div><img src=\\"https://openweathermap.org/img/w/01n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">15°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">clear sky</div>
+  </article>
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Thu</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">10th, Dec</div><img src=\\"https://openweathermap.org/img/w/04n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">15°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">broken clouds</div>
+  </article>
+  <article class=\\"sc-bdfBwQ hikiyW\\">
+    <div class=\\"sc-gsTCUz jnUaKZ\\">Fri</div>
+    <div class=\\"sc-dlfnbm jbeaVV\\">11th, Dec</div><img src=\\"https://openweathermap.org/img/w/01n.png\\" class=\\"sc-hKgILt\\">
+    <div class=\\"sc-eCssSg fajYQx\\">15°C</div>
+    <div class=\\"sc-jSgupP cuBoir\\">clear sky</div>
+  </article>
+</section>"
+`;
